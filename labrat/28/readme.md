@@ -42,7 +42,8 @@ time.Sleep(duration)``
 # code
 ### task1
 
-```package main
+```
+package main
 
 import (
 	"fmt"
@@ -70,11 +71,13 @@ func main() {
 		fmt.Println("Горутина 3: golang!")
 	}()
 	wg.Wait()
-}```
+}
+```
 
 ### task2
 
-```package main
+```
+package main
 
 import (
 	"fmt"
@@ -97,12 +100,14 @@ func main() {
 			fmt.Printf("init %s done\n", s)
 		}(domain)
 	}
-}```
+}
+```
 
 
 ### task3
 
-```package main
+```
+package main
 
 import (
     "flag"
@@ -187,4 +192,5 @@ func main() {
 
 	fmt.Println("Все заказы успешно обработаны")
 }
+
 ```
