@@ -1,6 +1,6 @@
 package main
 
-import (
+import ( 
 	"fmt"
 	"sync"
 )
@@ -17,7 +17,6 @@ func (b *BankAccount) Deposit(amount int) {
 	defer b.wg.Done()
 	b.balance += amount
 }
-
 
 
 func main() {
