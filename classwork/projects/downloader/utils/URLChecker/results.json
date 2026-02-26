@@ -1,0 +1,66 @@
+[
+  {
+    "URL": "https://journal.top-academy.ru/ru/main/homework/page/index",
+    "HTTPStatus": "200",
+    "Status": "200 OK",
+    "Ttfb_ms": "148",
+    "Size_bytes": "7759",
+    "Error": "\u003cnil\u003e"
+  },
+  {
+    "URL": "https://www.dns-shop.ru/",
+    "HTTPStatus": "401",
+    "Status": "401 Unauthorized",
+    "Ttfb_ms": "148",
+    "Size_bytes": "6319",
+    "Error": "\u003cnil\u003e"
+  },
+  {
+    "URL": "https://metanit.com/go/tutorial/2.6.php",
+    "HTTPStatus": "403",
+    "Status": "403 Forbidden",
+    "Ttfb_ms": "157",
+    "Size_bytes": "1016",
+    "Error": "\u003cnil\u003e"
+  },
+  {
+    "URL": "https://codepen.io/pen",
+    "HTTPStatus": "403",
+    "Status": "403 Forbidden",
+    "Ttfb_ms": "197",
+    "Size_bytes": "8669",
+    "Error": "\u003cnil\u003e"
+  },
+  {
+    "URL": "https://translate.yandex.ru/",
+    "HTTPStatus": "200",
+    "Status": "200 OK",
+    "Ttfb_ms": "301",
+    "Size_bytes": "214643",
+    "Error": "\u003cnil\u003e"
+  },
+  {
+    "URL": "https://golangify.com/write-to-stdout-stderr",
+    "HTTPStatus": "200",
+    "Status": "200 OK",
+    "Ttfb_ms": "434",
+    "Size_bytes": "202361",
+    "Error": "\u003cnil\u003e"
+  },
+  {
+    "URL": "https://calendar.yandex.ru/",
+    "HTTPStatus": "200",
+    "Status": "200 Ok",
+    "Ttfb_ms": "471",
+    "Size_bytes": "13057",
+    "Error": "\u003cnil\u003e"
+  },
+  {
+    "URL": "https://chrome.google.com/webstore?hl=ru",
+    "HTTPStatus": "200",
+    "Status": "200 OK",
+    "Ttfb_ms": "631",
+    "Size_bytes": "939068",
+    "Error": "\u003cnil\u003e"
+  }
+]
