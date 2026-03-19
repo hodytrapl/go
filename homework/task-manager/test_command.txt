@@ -1,0 +1,17 @@
+mux.HandleFunc("/tasks", CreateTaskHandler)
+$body = @{
+    title = "buy milk"
+} | ConvertTo-Json
+
+Invoke-RestMethod -Uri http://localhost:8080/tasks -Method POST -Body $body -ContentType "application/json"
+
+==============
+
+deleteTaskByID
+Invoke-WebRequest -Uri http://localhost:8080/tasks/1 -Method 
+Delete -Verbose
+
+======
+
+getTaskByID
+curl -v http://localhost:8080/tasks/1
